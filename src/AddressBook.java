@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class AddressBook {
     ArrayList<Person> addressbook = new ArrayList<Person>();
 
-    public ArrayList<Person> createContact(Person person) {
+    public ArrayList<Person> addContact(Person person) {
         this.addressbook.add(person);
         return this.addressbook;
     }
